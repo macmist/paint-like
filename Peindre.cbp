@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Peindre" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Muhaha" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Muhaha" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:\Program Files (x86)\CodeBlocks\SDL-1.2.14\include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\SDL-1.2.14\lib\SDL_image.lib" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\SDL-1.2.14\lib\SDL_ttf.lib" />
+			<Add directory="C:\Program Files (x86)\CodeBlocks\SDL-1.2.14\lib" />
+		</Linker>
+		<Unit filename="VerifFonctions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="VerifFonctions.h" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="collisions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dessins.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dessins.h" />
+		<Unit filename="g_souris.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="g_souris.h" />
+		<Unit filename="interface.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="interface.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="piles.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="piles.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

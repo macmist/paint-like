@@ -1,0 +1,464 @@
+# depslib dependency file v1.0
+1320788711 source:c:\users\quentin\documents\programmation\peindre\collisions.c
+
+1333634344 source:c:\users\quentin\documents\programmation\peindre\dessins.c
+	"dessins.h"
+
+1336590031 c:\users\quentin\documents\programmation\peindre\dessins.h
+	<math.h>
+	<time.h>
+	<assert.h>
+	"VerifFonctions.h"
+	"main.h"
+	"interface.h"
+	"g_souris.h"
+	"piles.h"
+
+1326821639 c:\users\quentin\documents\programmation\peindre\veriffonctions.h
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255796864 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_platform.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\begin_code.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\close_code.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_keysym.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1258246278 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255796864 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_platform.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\begin_code.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\close_code.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_keysym.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255908494 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1336590031 c:\users\quentin\documents\programmation\peindre\main.h
+
+1336589569 c:\users\quentin\documents\programmation\peindre\g_souris.h
+
+1336590031 c:\users\quentin\documents\programmation\peindre\interface.h
+
+1322250817 c:\users\quentin\documents\programmation\peindre\piles.h
+
+1326551258 source:c:\users\quentin\documents\programmation\peindre\interface.c
+	"dessins.h"
+	<stdarg.h>
+
+1344896390 source:c:\users\quentin\documents\programmation\peindre\main.c
+	"dessins.h"
+
+1321996630 source:c:\users\quentin\documents\programmation\peindre\piles.c
+	"dessins.h"
+
+1326821589 source:c:\users\quentin\documents\programmation\peindre\veriffonctions.c
+	"VerifFonctions.h"
+
+1336589467 source:c:\users\quentin\documents\programmation\peindre\g_souris.c
+	"dessins.h"
+
+1320785111 source:c:\users\quentin\desktop\projets\programmation\peindre\collisions.c
+
+1333630744 source:c:\users\quentin\desktop\projets\programmation\peindre\dessins.c
+	"dessins.h"
+
+1336586431 c:\users\quentin\desktop\projets\programmation\peindre\dessins.h
+	<math.h>
+	<time.h>
+	<assert.h>
+	"VerifFonctions.h"
+	"main.h"
+	"interface.h"
+	"g_souris.h"
+	"piles.h"
+
+1326818039 c:\users\quentin\desktop\projets\programmation\peindre\veriffonctions.h
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1336586431 c:\users\quentin\desktop\projets\programmation\peindre\main.h
+
+1336586431 c:\users\quentin\desktop\projets\programmation\peindre\interface.h
+
+1336585969 c:\users\quentin\desktop\projets\programmation\peindre\g_souris.h
+
+1322247217 c:\users\quentin\desktop\projets\programmation\peindre\piles.h
+
+1336585867 source:c:\users\quentin\desktop\projets\programmation\peindre\g_souris.c
+	"dessins.h"
+
+1326547658 source:c:\users\quentin\desktop\projets\programmation\peindre\interface.c
+	"dessins.h"
+	<stdarg.h>
+
+1344892790 source:c:\users\quentin\desktop\projets\programmation\peindre\main.c
+	"dessins.h"
+
+1321993030 source:c:\users\quentin\desktop\projets\programmation\peindre\piles.c
+	"dessins.h"
+
+1326817989 source:c:\users\quentin\desktop\projets\programmation\peindre\veriffonctions.c
+	"VerifFonctions.h"
+
